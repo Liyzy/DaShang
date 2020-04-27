@@ -55,6 +55,14 @@ public class UserDomain {
     public void setPic(String pic) {
         this.pic = pic;
     }
+    
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
 
     @Override
     public String toString() {
@@ -65,6 +73,7 @@ public class UserDomain {
                 ", telNumber='" + telNumber + '\'' +
                 ", email='" + email + '\'' +
                 ", pic='" + pic + '\'' +
+                ", userName='" + userName + '\'' +
                 '}';
     }
 }
