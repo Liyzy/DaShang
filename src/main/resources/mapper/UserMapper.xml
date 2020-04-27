@@ -46,7 +46,7 @@
     <!-- 更新用户信息 -->
     <update id="updateMessage">
         UPDATE usermessage
-        SET user_name=#{userName}, assress=#{adress}, email=#{email}, tel_number=#{telNumber}, pic=#{pic}, cid=#{cid}
+        SET user_name=#{userName}, address=#{address}, email=#{email}, tel_number=#{telNumber}, pic=#{pic}, cid=#{cid}
     </update>
 
     <!-- 插入新的用户信息 -->
